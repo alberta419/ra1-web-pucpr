@@ -1,0 +1,227 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Layout e navegação */
+nav {
+  background-color: #2c3e50;
+  padding: 16px 32px;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+nav a {
+  color: #ecf0f1;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+}
+
+nav a:hover {
+  background-color: #34495e;
+}
+
+hr {
+  display: none;
+}
+
+/* Conteúdo principal */
+div > h1 {
+  margin-bottom: 16px;
+}
+
+/* Container geral das páginas */
+nav + hr + div,
+nav ~ div {
+  padding: 32px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Cards de equipe */
+.equipe-card {
+  background: white;
+  border-radius: 10px;
+  padding: 24px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.equipe-card h2 {
+  color: #2c3e50;
+  margin-bottom: 4px;
+}
+
+.equipe-card p {
+  color: #666;
+}
+
+.equipe-card h3 {
+  margin-top: 12px;
+  font-size: 14px;
+  color: #555;
+}
+
+.equipe-card ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  margin-top: 6px;
+}
+
+.equipe-card a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.equipe-card a:hover {
+  text-decoration: underline;
+}
+
+/* Contadores */
+.contadores-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.contador-card {
+  background: white;
+  border-radius: 10px;
+  padding: 24px;
+  min-width: 220px;
+  flex: 1;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.contador-card h2 {
+  font-size: 16px;
+  color: #2c3e50;
+  margin-bottom: 8px;
+}
+
+.contador-card p {
+  font-size: 28px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 12px;
+}
+
+.contador-card button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.contador-card button:hover {
+  background-color: #2980b9;
+}
+
+/* Formulário */
+form {
+  background: white;
+  border-radius: 10px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+  margin-bottom: 16px;
+}
+
+form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: #2c3e50;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
+form select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+form input:focus,
+form select:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+}
+
+form input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+form button[type="submit"] {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  padding: 12px 32px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+form button[type="submit"]:hover {
+  background-color: #219a52;
+}
+
+/* Estado do formulário (debug) */
+pre {
+  background: #2c3e50;
+  color: #ecf0f1;
+  padding: 16px;
+  border-radius: 6px;
+  margin-top: 16px;
+  overflow-x: auto;
+  font-size: 13px;
+}
+
+/* Botão genérico */
+button {
+  cursor: pointer;
+}
+
+/* Home */
+ul {
+  margin-left: 20px;
+  margin-bottom: 16px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 12px;
+  color: #2c3e50;
+}
