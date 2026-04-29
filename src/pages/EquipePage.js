@@ -8,7 +8,7 @@ export default function EquipePage() {
       <Equipe
         nome="Douglas Henrique do Prado"
         cargo="Desenvolvedor Back-end"
-        idade={21}
+        idade={23}
         linkedin="douglas-prado"
         github="douglasprado"
       />
