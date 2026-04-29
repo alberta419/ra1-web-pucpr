@@ -8,14 +8,14 @@ export default function EquipePage() {
       <Equipe
         nome="Douglas Henrique do Prado"
         cargo="Desenvolvedor Back-end"
-        idade={22}
+        idade={21}
         linkedin="douglas-prado"
         github="douglasprado"
       />
       <Equipe
         nome="Pedro Henrique Hara Bialy"
         cargo="Desenvolvedor Front-end"
-        idade={22}
+        idade={20}
         linkedin="pedro-bialy"
         github="pedrobialy"
       />
@@ -27,11 +27,11 @@ export default function EquipePage() {
         github="ryanfigueredo"
       />
       <Equipe
-        nome="Yasmin Egidio de Oliveira"
+        nome="Yasmim Egidio de Oliveira"
         cargo="Designer e Front-end"
-        idade={22}
+        idade={18}
         linkedin="yasmin-oliveira"
-        github="yasminoliveira"
+        github="alberta419"
       />
     </div>
   );
