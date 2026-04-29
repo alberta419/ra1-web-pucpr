@@ -30,7 +30,7 @@ export default function EquipePage() {
         nome="Yasmim Egidio de Oliveira"
         cargo="Designer e Front-end"
         idade={18}
-        linkedin="yasmin-oliveira"
+        linkedin="yasmim-oliveira"
         github="alberta419"
       />
     </div>
